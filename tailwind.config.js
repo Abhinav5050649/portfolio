@@ -8,5 +8,11 @@ module.exports = {
     require('tailwindcss'),
     require('autoprefixer'),
   ],
+  purge: {
+    enabled: true,
+    content: [
+        './**/*.html'
+    ]
+  }
 }
 
